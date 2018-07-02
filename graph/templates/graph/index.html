@@ -1,0 +1,6 @@
+<ul>
+    <h1>Graph of the Day</h1>
+    {% for graph in all_graphs %}
+    <li><a href = "/graph/{{graph.id}}">{{graph.graph_name}}</a></li>
+    {% endfor %}
+</ul>
