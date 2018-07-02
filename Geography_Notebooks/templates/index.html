@@ -8,7 +8,7 @@
 <h1>Aviv's Geography Notebooks</h1>
 <ul>
     {% for notebook in Notebooks %}
-    <li><a href = "{{notebook.subject}}">{{notebook.description}}</a></li>
+    <li><a href = "/geography/{{notebook.id}}">{{notebook.subject}}</a></li>
     {% endfor %}
 </ul>
 
