@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'JFront.apps.JFrontConfig',
     'About.apps.AboutConfig',
     'Geography_Notebooks.apps.GeographyNotebooksConfig',
     'Home.apps.HomeConfig',

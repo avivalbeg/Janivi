@@ -1,5 +1,5 @@
 from django.contrib import admin
-from graph.models import Graph
+from JFront.models import Site
 
-admin.site.register(Graph)
+admin.site.register(Site)
 # Register your models here.

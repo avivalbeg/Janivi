@@ -21,5 +21,6 @@ urlpatterns = [
     url(r'^graph/',include('graph.urls')),
     url(r'^geography/',include('Geography_Notebooks.urls')),
     url(r'about/',include('About.urls')),
+    url(r'jfront/',include('JFront.urls')),
     url('',include('Home.urls')),
 ]

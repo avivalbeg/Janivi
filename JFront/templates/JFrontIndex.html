@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jenny's Front End</title>
+</head>
+<body>
+<ul>
+    <h1>Jenny's Websites</h1>
+    {% for site in Sites %}
+    <li><a href = "http://{{site.site_location}}">{{site.site}}</a></li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>

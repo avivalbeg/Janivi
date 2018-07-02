@@ -7,7 +7,7 @@ def index(request):
     context = {
         "Notebooks":Notebooks
     }
-    return render(request,template_name="index.html",context=context)
+    return render(request,template_name="AboutIndex.html",context=context)
 
 def detail(request,notebook_id):
     try:
