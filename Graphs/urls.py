@@ -20,5 +20,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^graph/',include('graph.urls')),
     url(r'^geography/',include('Geography_Notebooks.urls')),
+    url(r'about/',include('About.urls')),
     url('',include('Home.urls')),
 ]
