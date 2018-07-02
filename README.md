@@ -1,4 +1,6 @@
-# Aviv_Site
+# Janivi Website
+
+## A Website that is a collection of python notebooks, businesses, front-end development, and a blog on interesting subjects. Welcome to the club.
 
 ## To get started:
 
