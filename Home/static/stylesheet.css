@@ -1,17 +1,59 @@
+
 body{
-background-color:white;
+
+background:url('images/front.png') no-repeat;
+background-size:cover;
+
 }
 
 #logo img{
 width:150px;
+float:left;
+display:block;
 }
 
 .main-menu{
 
-display:flex;
-flex-wrap: no-wrap;
+float:left;
+font-family:Arial;
 }
 
-.main-menu li{
-display:inline;
+.main-menu ul{
+margin:0px;
+padding:0px;
+list-style:none;
 }
+.main-menu ul li{
+float:left;
+width:200px;
+height:40px;
+background-color:white;
+text-align:center;
+font-size:20px;
+line-height:40px;
+margin-left:2px;
+margin-right:2px;}
+
+.main-menu ul li ul li{
+    opacity:.8;
+}
+
+.main-menu ul li:hover{
+background-color:red;
+}
+
+
+.main-menu ul li a{
+text-decoration:none;
+display:block;
+color:black;
+}
+
+.main-menu ul li:hover{
+background:color:green;}
+
+.main-menu ul li ul li{
+display:none;}
+
+.main-menu ul li:hover ul li{
+display:block;}
