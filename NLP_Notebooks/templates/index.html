@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NLP Notebooks</title>
+</head>
+<body>
+<h1>Omer's NLP Notebooks</h1>
+<ul>
+    {% for notebook in Notebooks %}
+    <li><a href = "/geography/{{notebook.id}}">{{notebook.subject}}</a></li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>

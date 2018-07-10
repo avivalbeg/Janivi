@@ -22,5 +22,6 @@ urlpatterns = [
     url(r'^geography/',include('Geography_Notebooks.urls')),
     url(r'about/',include('About.urls')),
     url(r'jfront/',include('JFront.urls')),
+    url(r'nlp/',include('NLP_Notebooks.urls')),
     url('',include('Home.urls')),
 ]
